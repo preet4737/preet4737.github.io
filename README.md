@@ -1,10 +1,5 @@
 # PREET SHAH
 
-## SE Student
+### Connect With Me :
+https://preetshah.me
 
-### Website hosted :
-https://preet4737.github.io
-
-### Screenshots:
-![](assets/img1.png)
-![](assets/img2.png)
