@@ -14,11 +14,11 @@
 
 @media only screen and (max-width: 1400px) {
   .single-project-slide-by-side .owl-prev {
-    top: 40%;
+    top: 44%;
     left: 0; }
 
   .single-project-slide-by-side .owl-next {
-    top: 44%;
+    top: 43.8%;
     right: 0; } }
 @media only screen and (max-width: 991px) {
   .section-separator {
@@ -288,7 +288,7 @@
     padding-right: 20px; } }
 @media only screen and (max-width: 768px) {
 
-  .experince h3 {
+  .experience h3 {
     margin-bottom: 30px; }
 
   .work h3 {
@@ -346,7 +346,7 @@
     margin: 30px 15px; }
 
 
-  .experince h3 {
+  .experience h3 {
     margin-bottom: 30px;
     text-align: center; }
 
@@ -354,7 +354,7 @@
     margin-bottom: 30px;
     padding-right: 0; }
 
-  .experince .education-deatils .education-item {
+  .experience .education-deatils .education-item {
       height: max-content;
     }
 
@@ -423,4 +423,6 @@
     padding: 60px 0; }
   }
 
+  .mh-testimonial .mh-client-item {
+    padding: 30px 10px; }
 /*# sourceMappingURL=responsive.css.map */
