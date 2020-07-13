@@ -309,7 +309,9 @@
     height: 70px;
     line-height: 70px; }
 
-
+    .service .service-item h3 {
+      font-size: large;
+     }
   .testimonial .client-item {
     padding: 30px 10px; }
 
@@ -335,6 +337,10 @@
   .home .hero-img {
     margin-bottom: 30px; }
 
+    .home .hero-img img{
+      margin-top: 10px;
+      border-radius: 50%;}
+
   .home .header-info {
     padding: 0;
     text-align: center;
@@ -354,8 +360,8 @@
     margin-bottom: 30px;
     padding-right: 0; }
 
-  .experience .education-deatils .education-item {
-      height: max-content;
+  .experience .education-details .education-item{
+      height: fit-content;
     }
 
   .work {
@@ -395,8 +401,10 @@
     padding: 0; }
 
   .service .service-item {
-    margin-bottom: 20px; }
-
+    margin-bottom: 20px;
+    width: fit-content;
+    height: fit-content; }
+  
   .social-icon {
     display: block;
     margin: 0 auto;
@@ -416,8 +424,9 @@
     text-align: center !important; } }
 @media only screen and (max-width: 420px) {
   .home .img-border {
-    height: 280px;
-    width: 280px; }
+    height: 180px;
+    width: 180px; 
+    border-radius: 50%;}
 
   .home-padding {
     padding: 60px 0; }
@@ -425,4 +434,22 @@
 
   .mh-testimonial .mh-client-item {
     padding: 30px 10px; }
-/*# sourceMappingURL=responsive.css.map */
+
+    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+      .experience .education-details .education-item{
+        height: fit-content;
+      }
+      .home .hero-img img{
+        margin-top: 10%;
+        margin-bottom: 25px; 
+      }
+      .about-img{
+        margin-top: 55%;
+      }
+    }
+
+    @media only screen and (max-width: 1366px) {
+      .experience .education-details .education-item{
+        height: fit-content;
+      }
+    }
