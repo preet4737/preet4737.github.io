@@ -1,5 +1,5 @@
 # PREET SHAH
 
 ### Connect With Me :
-https://preetshah.me
+http://preetshah.me
 
