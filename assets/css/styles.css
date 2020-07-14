@@ -736,14 +736,12 @@ body {
   margin-top: 10px;
   text-align: center; }
   .home .hero-img img {
-    margin-top: 80px;
+    margin-top: 12%;
     float: none;
     text-align: center;
     /* border: 20px solid rgba(0, 0, 0, 0.17); */
     border-radius: 50%;}
 .home .img-border {
-  height: 450px;
-  width: 320px;
   /* border: 20px solid rgba(0, 0, 0, 0.07); */
   margin: 0 auto;
 }
